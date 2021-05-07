@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Miniaturas </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/fabricantes-list" routerLinkActive="activebutton">Fabricantes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/temas-list" routerLinkActive="activebutton">Temas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/tipos-list" routerLinkActive="activebutton">Tipos Miniaturas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/miniaturas-list" routerLinkActive="activebutton">Miniatura</a>
+        </li>                
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+    <div class="container">
+        <router-outlet></router-outlet>
+    </div>
+</main>
